@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="BookTests.UnitTestRunner">
+        <methods>
+          <include name="singletestrunner"/>
+        </methods>
+      </class> <!-- BookTests.UnitTestRunner -->
+      <class name="BookTests.Tests_soa">
+        <methods>
+          <include name="SoapTest"/>
+        </methods>
+      </class> <!-- BookTests.Tests_soa -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
